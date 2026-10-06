@@ -1,107 +1,44 @@
-# 🎓 IST Batch Website
+# 🎓 IST Batch 2025–2029
 
 > **Our Students. Our Achievements. Our Events. Our Memories.**
 
-The **IST Batch Website** is a dedicated digital platform created exclusively for our batch. It serves as a central place to showcase our students, document everyday events, recognize achievements and awards, and preserve important memories throughout our academic journey.
+The **IST Batch 2025–2029 Website** is a dedicated digital platform created exclusively for our batch. It serves as a central place to showcase our students, document everyday events, recognize achievements and awards, and preserve important memories throughout our journey from **2025 to 2029**.
 
 ---
 
-## 🌐 About the Project
+## 🌐 About the Website
 
-This website is designed to become the **digital archive of our IST batch**.
+The **IST Batch 2025–2029 Website** is our digital archive.
 
-Instead of keeping our achievements, events, and memories scattered across social media, group chats, and personal devices, everything can be organized in one website.
+It brings together the important moments of our batch in one place — from everyday events and activities to student achievements, awards, and memorable experiences.
 
-The platform will allow authorized members to manage and update information while students and batch members can view our latest activities and accomplishments.
+This website will continue to grow throughout our four-year journey.
 
----
+### 📌 What You Can Find
 
-## ✨ Main Features
-
-### 👨‍🎓 Students
-
-A dedicated section for our batch members.
-
-Each student profile can contain:
-
-* Name
-* Profile picture
-* Student information
-* Achievements
-* Awards
-* Contributions
-* Other relevant information
+* **Students** — Information and profiles of our batch members
+* **Events** — Daily and important events throughout the school year
+* **Awards** — Awards and recognitions received by our students
+* **Achievements** — Accomplishments and milestones of our students
+* **Memories** — Photos and memorable moments
+* **Updates** — Important things happening within our batch
 
 ---
 
-### 📅 Events
+## 🎯 Our Purpose
 
-A timeline of what happens throughout our batch journey.
+The main purpose of this website is to **document and preserve our journey as IST students from 2025 to 2029**.
 
-Examples:
+Throughout these years, we will experience different events, challenges, achievements, celebrations, and milestones.
 
-* School activities
-* Class activities
-* Competitions
-* Celebrations
-* Projects
-* Special events
-* Important announcements
-
----
-
-### 🏆 Awards
-
-A dedicated section recognizing students who receive awards and honors.
-
-Awards can include:
-
-* Academic awards
-* Competition awards
-* Sports awards
-* Leadership awards
-* School recognitions
-* Other achievements
-
----
-
-### 🌟 Achievements
-
-A place to showcase the accomplishments of our students.
-
-Achievements can include:
-
-* Academic accomplishments
-* Programming and technology projects
-* Competitions
-* Certifications
-* Leadership
-* Extracurricular activities
-* Other notable accomplishments
-
----
-
-### 📸 Memories
-
-Important photos and moments from our batch can be stored and displayed through the website.
-
-Examples:
-
-* Event photos
-* Class photos
-* Competition photos
-* Celebrations
-* Award ceremonies
-* Special moments
+This website gives us one place to record those moments so they can be remembered even after our college journey ends.
 
 ---
 
 ## 🏗️ TECH STACK
 
-The project uses a modern full-stack architecture.
-
 ```text
-                    IST BATCH WEBSITE
+                    IST BATCH 2025–2029
                            │
              ┌─────────────┴─────────────┐
              │                           │
@@ -128,25 +65,25 @@ The project uses a modern full-stack architecture.
 
 **Next.js + React**
 
-Used to build the website interface and application pages.
+Used to build the website and its interactive pages.
 
 ### Styling
 
 **Tailwind CSS**
 
-Used to create a responsive and modern design.
+Used to create a modern, responsive, and consistent design.
 
 ### Backend
 
 **Supabase**
 
-Provides the backend services required by the website.
+Provides the backend services for the application.
 
 ### Database
 
 **PostgreSQL**
 
-Stores structured information such as:
+Stores information about:
 
 * Students
 * Events
@@ -157,110 +94,123 @@ Stores structured information such as:
 
 **Supabase Auth**
 
-Handles authorized access and login functionality.
+Handles secure login and authorized access.
 
 ### Storage
 
 **Supabase Storage**
 
-Used to store:
+Used for storing:
 
-* Profile pictures
+* Student profile photos
 * Event photos
 * Award photos
 * Achievement images
 
 ---
 
-## 🗄️ Database Structure
+## 👨‍🎓 Students
 
-The main database entities are:
+The Students section contains information about members of the **IST Batch 2025–2029**.
 
-```text
-Students
-    │
-    ├── Achievements
-    │
-    └── Awards
+Possible information includes:
 
-Events
-    │
-    └── Photos
-```
+* Name
+* Profile picture
+* Student information
+* Achievements
+* Awards
+* Contributions
+* Other relevant information
 
-### Students
-
-Stores information about batch members.
-
-```text
-id
-name
-section
-profile_photo
-bio
-created_at
-```
-
-### Events
-
-Stores information about batch events.
-
-```text
-id
-title
-description
-event_date
-location
-created_at
-```
-
-### Awards
-
-Stores awards and recognitions.
-
-```text
-id
-student_id
-award_name
-description
-date
-photo
-created_at
-```
-
-### Achievements
-
-Stores student accomplishments.
-
-```text
-id
-student_id
-title
-description
-date
-photo
-created_at
-```
+Every student is part of our batch story.
 
 ---
 
-## 🔐 Access & Security
+## 📅 Events
 
-Because the website contains real student information, access should be handled responsibly.
+The Events section documents what happens throughout our journey.
 
-### Public Users
+Examples include:
 
-Can view:
+* Daily batch activities
+* School events
+* Class activities
+* Competitions
+* Celebrations
+* Projects
+* Important announcements
+* Special occasions
 
-* Student profiles
+---
+
+## 🏆 Awards
+
+The Awards section recognizes students who receive awards and honors.
+
+These may include:
+
+* Academic awards
+* Competition awards
+* Sports awards
+* Leadership awards
+* School recognitions
+* Other accomplishments
+
+---
+
+## 🌟 Achievements
+
+The Achievements section showcases the accomplishments of our students.
+
+Examples include:
+
+* Academic accomplishments
+* Technology projects
+* Programming projects
+* Competitions
+* Certifications
+* Leadership
+* Extracurricular activities
+* Other notable achievements
+
+---
+
+## 📸 Memories
+
+Our college journey is more than just grades and awards.
+
+The website will also preserve important memories through:
+
+* Class photos
+* Event photos
+* Competition photos
+* Celebrations
+* Award ceremonies
+* Batch activities
+* Special moments
+
+---
+
+## 🔐 Privacy & Access
+
+This website is created **for the IST Batch 2025–2029**.
+
+Because the website may contain real student information and photographs, all information should be handled responsibly.
+
+### Public Visitors
+
+Depending on the final website settings, visitors may be able to view:
+
+* Public student profiles
 * Events
 * Awards
 * Achievements
 * Public memories
 
-### Authorized Users
+### Authorized Members
 
-Can:
+Authorized users may be able to:
 
 * Add student information
 * Create events
@@ -275,23 +225,19 @@ Authentication will be handled through **Supabase Auth**.
 
 ## 📱 Responsive Design
 
-The website should work across different devices:
+The website is designed to work across:
 
 * 💻 Desktop
 * 💻 Laptop
 * 📱 Mobile
 * 📱 Tablet
 
-Tailwind CSS will be used to create a responsive interface.
-
 ---
 
 ## 📂 Project Structure
 
-A possible Next.js project structure:
-
 ```text
-ist-batch-website/
+ist-batch-2025-2029/
 │
 ├── app/
 │   ├── page.tsx
@@ -314,8 +260,6 @@ ist-batch-website/
 ├── public/
 │   └── images/
 │
-├── styles/
-│
 ├── .env.local
 ├── package.json
 └── README.md
@@ -325,70 +269,82 @@ ist-batch-website/
 
 ## 🚀 Development
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone <repository-url>
-cd ist-batch-website
+cd ist-batch-2025-2029
 ```
 
-### 2. Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Configure Supabase
+### Configure Supabase
 
-Create a Supabase project and configure the required environment variables.
+Create a Supabase project and configure:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
-### 4. Run the development server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-The website will be available locally through the development server.
-
 ---
 
-## 🎯 Project Goals
+## 🎯 Our Goals
 
-The IST Batch Website aims to:
+The IST Batch 2025–2029 Website aims to:
 
 * Preserve our batch memories
 * Recognize student achievements
-* Showcase awards and accomplishments
+* Showcase awards
 * Document important events
 * Keep batch information organized
-* Create a digital record of our journey
-* Strengthen our batch identity and community
+* Build a digital record of our college journey
+* Celebrate the accomplishments of every student
+* Create a lasting digital legacy for our batch
+
+---
+
+## 🗓️ Our Journey: 2025 → 2029
+
+```text
+2025 ─────── 2026 ─────── 2027 ─────── 2028 ─────── 2029
+  │             │             │             │             │
+Start        Memories      Growth       Achievements    Graduation
+  │             │             │             │             │
+  └─────────────┴─────────────┴─────────────┴─────────────┘
+                         Our Journey
+```
+
+Every year will add new events, achievements, awards, friendships, challenges, and memories to our story.
 
 ---
 
 ## 🌱 Our Vision
 
-This website is more than just a collection of pages.
+This website is more than a collection of pages.
 
-It is a **digital record of our journey as IST students**.
+It is a **digital record of the IST Batch 2025–2029 journey**.
 
-As time passes, new events will happen, new achievements will be earned, and new memories will be created.
+As we move from year to year, the website will grow with us and preserve the moments that made our batch unique.
 
-The website will grow with our batch.
-
-> **Every student has a story.
-> Every achievement has a moment.
-> Every event becomes a memory.**
+> **Every student has a story.**
+> **Every achievement has a moment.**
+> **Every event becomes a memory.**
 
 ---
 
-## 🎓 IST Batch
+# 🎓 IST Batch 2025–2029
 
-**Our Students • Our Achievements • Our Events • Our Memories**
+### **Our Students • Our Achievements • Our Events • Our Memories**
 
-Built by the IST Batch, for the IST Batch.
+**Built by the IST Batch 2025–2029, for the IST Batch 2025–2029.**
